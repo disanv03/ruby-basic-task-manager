@@ -1,13 +1,12 @@
-class TasksController < ApplicationController
+class CategoriesController < ApplicationController
   def index
-  @page = params['page'].to_i
-  @tasks = ['fold laundry', 'sweep porch', 'wash dishes', 'mow lawn']
   end
 
   def show
   end
 
   def new
+
   end
 
   def create
@@ -24,5 +23,4 @@ class TasksController < ApplicationController
 
   def destroy
   end
-
 end
